@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="\\filesrv-01\Students\Intake17\emiller\A Level Computing\Xmas Project.cs" Link="Xmas Project.cs" />
+    <EmbeddedResource Remove="Xmas Project.resx" />
   </ItemGroup>
 
 </Project>

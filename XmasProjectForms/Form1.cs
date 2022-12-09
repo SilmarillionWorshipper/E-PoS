@@ -12,7 +12,7 @@ namespace XmasProjectForms
             MessageBox.Show("lmao you NERD!");
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void TextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
