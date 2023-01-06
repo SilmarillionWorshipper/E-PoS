@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.penButton = new System.Windows.Forms.Button();
+            this.highlighterButton = new System.Windows.Forms.Button();
+            this.pencilButton = new System.Windows.Forms.Button();
+            this.rubberButton = new System.Windows.Forms.Button();
+            this.rulerButton = new System.Windows.Forms.Button();
+            this.pencilSharpenerButton = new System.Windows.Forms.Button();
+            this.pencilCaseButton = new System.Windows.Forms.Button();
+            this.teacherAccessButton = new System.Windows.Forms.Button();
+            this.buyButton = new System.Windows.Forms.Button();
+            this.cancelButton = new System.Windows.Forms.Button();
+            this.shoppingList = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -55,114 +55,123 @@
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // penButton
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(12, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(152, 138);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Pen";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.penButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.penButton.Location = new System.Drawing.Point(12, 12);
+            this.penButton.Name = "penButton";
+            this.penButton.Size = new System.Drawing.Size(152, 138);
+            this.penButton.TabIndex = 0;
+            this.penButton.Text = "Pen";
+            this.penButton.UseVisualStyleBackColor = true;
+            this.penButton.Click += new System.EventHandler(this.penButton_Click);
             // 
-            // button2
+            // highlighterButton
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(12, 201);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(152, 139);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Highlighter";
-            this.button2.UseVisualStyleBackColor = true;
+            this.highlighterButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.highlighterButton.Location = new System.Drawing.Point(12, 201);
+            this.highlighterButton.Name = "highlighterButton";
+            this.highlighterButton.Size = new System.Drawing.Size(152, 139);
+            this.highlighterButton.TabIndex = 1;
+            this.highlighterButton.Text = "Highlighter";
+            this.highlighterButton.UseVisualStyleBackColor = true;
+            this.highlighterButton.Click += new System.EventHandler(this.highlighterButton_Click);
             // 
-            // button3
+            // pencilButton
             // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(170, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(152, 138);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Pencil";
-            this.button3.UseVisualStyleBackColor = true;
+            this.pencilButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.pencilButton.Location = new System.Drawing.Point(170, 12);
+            this.pencilButton.Name = "pencilButton";
+            this.pencilButton.Size = new System.Drawing.Size(152, 138);
+            this.pencilButton.TabIndex = 2;
+            this.pencilButton.Text = "Pencil";
+            this.pencilButton.UseVisualStyleBackColor = true;
+            this.pencilButton.Click += new System.EventHandler(this.pencilButton_Click);
             // 
-            // button4
+            // rubberButton
             // 
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(170, 201);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(152, 139);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Rubber";
-            this.button4.UseVisualStyleBackColor = true;
+            this.rubberButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rubberButton.Location = new System.Drawing.Point(170, 201);
+            this.rubberButton.Name = "rubberButton";
+            this.rubberButton.Size = new System.Drawing.Size(152, 139);
+            this.rubberButton.TabIndex = 3;
+            this.rubberButton.Text = "Rubber";
+            this.rubberButton.UseVisualStyleBackColor = true;
+            this.rubberButton.Click += new System.EventHandler(this.rubberButton_Click);
             // 
-            // button5
+            // rulerButton
             // 
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(328, 12);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(152, 138);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Ruler";
-            this.button5.UseVisualStyleBackColor = true;
+            this.rulerButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rulerButton.Location = new System.Drawing.Point(328, 12);
+            this.rulerButton.Name = "rulerButton";
+            this.rulerButton.Size = new System.Drawing.Size(152, 138);
+            this.rulerButton.TabIndex = 4;
+            this.rulerButton.Text = "Ruler";
+            this.rulerButton.UseVisualStyleBackColor = true;
+            this.rulerButton.Click += new System.EventHandler(this.rulerButton_Click);
             // 
-            // button6
+            // pencilSharpenerButton
             // 
-            this.button6.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(328, 201);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(152, 139);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Pencil Sharpener";
-            this.button6.UseVisualStyleBackColor = true;
+            this.pencilSharpenerButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.pencilSharpenerButton.Location = new System.Drawing.Point(328, 201);
+            this.pencilSharpenerButton.Name = "pencilSharpenerButton";
+            this.pencilSharpenerButton.Size = new System.Drawing.Size(152, 139);
+            this.pencilSharpenerButton.TabIndex = 5;
+            this.pencilSharpenerButton.Text = "Pencil Sharpener";
+            this.pencilSharpenerButton.UseVisualStyleBackColor = true;
+            this.pencilSharpenerButton.Click += new System.EventHandler(this.pencilSharpenerButton_Click);
             // 
-            // button7
+            // pencilCaseButton
             // 
-            this.button7.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button7.Location = new System.Drawing.Point(486, 12);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(152, 138);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Pencil Case";
-            this.button7.UseVisualStyleBackColor = true;
+            this.pencilCaseButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.pencilCaseButton.Location = new System.Drawing.Point(486, 12);
+            this.pencilCaseButton.Name = "pencilCaseButton";
+            this.pencilCaseButton.Size = new System.Drawing.Size(152, 138);
+            this.pencilCaseButton.TabIndex = 6;
+            this.pencilCaseButton.Text = "Pencil Case";
+            this.pencilCaseButton.UseVisualStyleBackColor = true;
+            this.pencilCaseButton.Click += new System.EventHandler(this.pencilCaseButton_Click);
             // 
-            // button8
+            // teacherAccessButton
             // 
-            this.button8.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button8.Location = new System.Drawing.Point(486, 201);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(152, 179);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Teacher Access";
-            this.button8.UseVisualStyleBackColor = true;
+            this.teacherAccessButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.teacherAccessButton.Location = new System.Drawing.Point(486, 201);
+            this.teacherAccessButton.Name = "teacherAccessButton";
+            this.teacherAccessButton.Size = new System.Drawing.Size(152, 179);
+            this.teacherAccessButton.TabIndex = 7;
+            this.teacherAccessButton.Text = "Teacher Access";
+            this.teacherAccessButton.UseVisualStyleBackColor = true;
+            this.teacherAccessButton.Click += new System.EventHandler(this.teacherAccessButton_Click);
             // 
-            // button9
+            // buyButton
             // 
-            this.button9.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button9.Location = new System.Drawing.Point(644, 320);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(89, 60);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "Buy";
-            this.button9.UseVisualStyleBackColor = true;
+            this.buyButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buyButton.Location = new System.Drawing.Point(644, 320);
+            this.buyButton.Name = "buyButton";
+            this.buyButton.Size = new System.Drawing.Size(89, 60);
+            this.buyButton.TabIndex = 8;
+            this.buyButton.Text = "Buy";
+            this.buyButton.UseVisualStyleBackColor = true;
+            this.buyButton.Click += new System.EventHandler(this.buyButton_Click);
             // 
-            // button10
+            // cancelButton
             // 
-            this.button10.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button10.Location = new System.Drawing.Point(735, 320);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(89, 60);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "Cancel";
-            this.button10.UseVisualStyleBackColor = true;
+            this.cancelButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cancelButton.Location = new System.Drawing.Point(735, 320);
+            this.cancelButton.Name = "cancelButton";
+            this.cancelButton.Size = new System.Drawing.Size(89, 60);
+            this.cancelButton.TabIndex = 9;
+            this.cancelButton.Text = "Cancel";
+            this.cancelButton.UseVisualStyleBackColor = true;
+            this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
-            // textBox1
+            // shoppingList
             // 
-            this.textBox1.Location = new System.Drawing.Point(644, 12);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 302);
-            this.textBox1.TabIndex = 10;
+            this.shoppingList.Location = new System.Drawing.Point(644, 12);
+            this.shoppingList.Multiline = true;
+            this.shoppingList.Name = "shoppingList";
+            this.shoppingList.Size = new System.Drawing.Size(180, 302);
+            this.shoppingList.TabIndex = 10;
             // 
             // textBox2
             // 
@@ -323,19 +332,19 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.shoppingList);
+            this.Controls.Add(this.cancelButton);
+            this.Controls.Add(this.buyButton);
+            this.Controls.Add(this.teacherAccessButton);
+            this.Controls.Add(this.pencilCaseButton);
+            this.Controls.Add(this.pencilSharpenerButton);
+            this.Controls.Add(this.rulerButton);
+            this.Controls.Add(this.rubberButton);
+            this.Controls.Add(this.pencilButton);
+            this.Controls.Add(this.highlighterButton);
+            this.Controls.Add(this.penButton);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "e-PoS";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -344,17 +353,17 @@
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private TextBox textBox1;
+        private Button Pen;
+        private Button highlighterButton;
+        private Button pencilButton;
+        private Button rubberButton;
+        private Button rulerButton;
+        private Button pencilSharpenerButton;
+        private Button pencilCaseButton;
+        private Button teacherAccessButton;
+        private Button buyButton;
+        private Button cancelButton;
+        private TextBox shoppingList;
         private TextBox textBox2;
         private TextBox textBox10;
         private TextBox textBox3;
@@ -369,5 +378,6 @@
         private TextBox textBox13;
         private TextBox textBox14;
         private TextBox textBox15;
+        private Button penButton;
     }
 }
