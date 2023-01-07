@@ -14,13 +14,12 @@ namespace WindowsFormsThingy
 
         private void penButton_Click(object sender, EventArgs e)
         {
-            Button button = sender as Button;
-            shoppingList.Text += "Pen ";
+            
         }
 
         private void pencilButton_Click(object sender, EventArgs e)
         {
-
+            AddToCart("Pencil");
         }
 
         private void rulerButton_Click(object sender, EventArgs e)
@@ -30,7 +29,7 @@ namespace WindowsFormsThingy
 
         private void pencilCaseButton_Click(object sender, EventArgs e)
         {
-
+            AddToCart("Pencil Case");
         }
 
         private void highlighterButton_Click(object sender, EventArgs e)
@@ -40,12 +39,12 @@ namespace WindowsFormsThingy
 
         private void rubberButton_Click(object sender, EventArgs e)
         {
-
+            AddToCart("Rubber");
         }
 
         private void pencilSharpenerButton_Click(object sender, EventArgs e)
         {
-
+            AddToCart("Pencil Sharpener");
         }
 
         private void teacherAccessButton_Click(object sender, EventArgs e)
@@ -63,9 +62,9 @@ namespace WindowsFormsThingy
 
         }
 
-        private void Purchase()
+        private void AddToCart(string stockName)
         {
-
+            shoppingListTxt.Text += stockName;
         }
     }
 }
