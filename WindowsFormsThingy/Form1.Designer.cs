@@ -50,11 +50,13 @@
             this.highlighterTxt = new System.Windows.Forms.TextBox();
             this.penTxt = new System.Windows.Forms.TextBox();
             this.rulerTxt = new System.Windows.Forms.TextBox();
+            this.totalTxt = new System.Windows.Forms.TextBox();
+            this.totalPriceTxt = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // penButton
             // 
-            this.penButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.penButton.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.penButton.Location = new System.Drawing.Point(170, 201);
             this.penButton.Name = "penButton";
             this.penButton.Size = new System.Drawing.Size(152, 138);
@@ -65,7 +67,7 @@
             // 
             // highlighterButton
             // 
-            this.highlighterButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.highlighterButton.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.highlighterButton.Location = new System.Drawing.Point(12, 201);
             this.highlighterButton.Name = "highlighterButton";
             this.highlighterButton.Size = new System.Drawing.Size(152, 138);
@@ -76,7 +78,7 @@
             // 
             // pencilButton
             // 
-            this.pencilButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.pencilButton.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.pencilButton.Location = new System.Drawing.Point(12, 12);
             this.pencilButton.Name = "pencilButton";
             this.pencilButton.Size = new System.Drawing.Size(152, 138);
@@ -87,7 +89,7 @@
             // 
             // rubberButton
             // 
-            this.rubberButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rubberButton.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rubberButton.Location = new System.Drawing.Point(486, 12);
             this.rubberButton.Name = "rubberButton";
             this.rubberButton.Size = new System.Drawing.Size(152, 138);
@@ -98,7 +100,7 @@
             // 
             // rulerButton
             // 
-            this.rulerButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rulerButton.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rulerButton.Location = new System.Drawing.Point(328, 201);
             this.rulerButton.Name = "rulerButton";
             this.rulerButton.Size = new System.Drawing.Size(152, 138);
@@ -109,8 +111,8 @@
             // 
             // pencilSharpenerButton
             // 
-            this.pencilSharpenerButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.pencilSharpenerButton.Location = new System.Drawing.Point(328, 11);
+            this.pencilSharpenerButton.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.pencilSharpenerButton.Location = new System.Drawing.Point(328, 12);
             this.pencilSharpenerButton.Name = "pencilSharpenerButton";
             this.pencilSharpenerButton.Size = new System.Drawing.Size(152, 138);
             this.pencilSharpenerButton.TabIndex = 5;
@@ -120,7 +122,7 @@
             // 
             // pencilCaseButton
             // 
-            this.pencilCaseButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.pencilCaseButton.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.pencilCaseButton.Location = new System.Drawing.Point(170, 12);
             this.pencilCaseButton.Name = "pencilCaseButton";
             this.pencilCaseButton.Size = new System.Drawing.Size(152, 138);
@@ -131,7 +133,7 @@
             // 
             // teacherAccessButton
             // 
-            this.teacherAccessButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.teacherAccessButton.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.teacherAccessButton.Location = new System.Drawing.Point(486, 201);
             this.teacherAccessButton.Name = "teacherAccessButton";
             this.teacherAccessButton.Size = new System.Drawing.Size(152, 179);
@@ -142,7 +144,7 @@
             // 
             // buyButton
             // 
-            this.buyButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buyButton.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buyButton.Location = new System.Drawing.Point(644, 320);
             this.buyButton.Name = "buyButton";
             this.buyButton.Size = new System.Drawing.Size(89, 60);
@@ -153,7 +155,7 @@
             // 
             // cancelButton
             // 
-            this.cancelButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cancelButton.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cancelButton.Location = new System.Drawing.Point(735, 320);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(89, 60);
@@ -168,7 +170,7 @@
             this.shoppingListTxt.Multiline = true;
             this.shoppingListTxt.Name = "shoppingListTxt";
             this.shoppingListTxt.ReadOnly = true;
-            this.shoppingListTxt.Size = new System.Drawing.Size(180, 302);
+            this.shoppingListTxt.Size = new System.Drawing.Size(180, 260);
             this.shoppingListTxt.TabIndex = 10;
             // 
             // pencilPriceTxt
@@ -295,11 +297,37 @@
             this.rulerTxt.Text = "Please click button for options";
             this.rulerTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // totalTxt
+            // 
+            this.totalTxt.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.totalTxt.Location = new System.Drawing.Point(644, 271);
+            this.totalTxt.Multiline = true;
+            this.totalTxt.Name = "totalTxt";
+            this.totalTxt.ReadOnly = true;
+            this.totalTxt.Size = new System.Drawing.Size(90, 43);
+            this.totalTxt.TabIndex = 31;
+            this.totalTxt.Text = "Total:";
+            this.totalTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // totalPriceTxt
+            // 
+            this.totalPriceTxt.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.totalPriceTxt.Location = new System.Drawing.Point(734, 271);
+            this.totalPriceTxt.Multiline = true;
+            this.totalPriceTxt.Name = "totalPriceTxt";
+            this.totalPriceTxt.ReadOnly = true;
+            this.totalPriceTxt.Size = new System.Drawing.Size(90, 43);
+            this.totalPriceTxt.TabIndex = 32;
+            this.totalPriceTxt.Text = "£10.00";
+            this.totalPriceTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(836, 392);
+            this.Controls.Add(this.totalPriceTxt);
+            this.Controls.Add(this.totalTxt);
             this.Controls.Add(this.rulerTxt);
             this.Controls.Add(this.penTxt);
             this.Controls.Add(this.highlighterTxt);
@@ -355,5 +383,7 @@
         private TextBox penTxt;
         private TextBox rulerTxt;
         private Button penButton;
+        private TextBox totalTxt;
+        private TextBox totalPriceTxt;
     }
 }
