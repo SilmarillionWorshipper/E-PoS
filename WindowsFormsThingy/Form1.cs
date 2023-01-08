@@ -8,10 +8,9 @@ namespace WindowsFormsThingy
         {
             InitializeComponent();
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
-            LoadFile();
+            
         }
 
         private void penButton_Click(object sender, EventArgs e)
@@ -65,7 +64,7 @@ namespace WindowsFormsThingy
         }
 
         // Procedure to load the data stored on Stock.txt into a 2D array
-        private void LoadFile()
+        public static string[,] LoadFile()
         {
             // Declares 2D array and a counter for putting items into the array
             string[,] StockData = new string[11,4];
@@ -98,16 +97,22 @@ namespace WindowsFormsThingy
             {
                 MessageBox.Show("File error", "Error");
             }
+            return StockData;
+            // Update: I want to cry
         }   
 
-        private void TextBoxLoader()
+        static void TextBoxLoader()
         {
 
         }
 
-        private void AddToCart(string stockName)
+        public void AddToCart(string stockName)
         {
             shoppingListTxt.Text += stockName;
+            for (int Index = 0; Index < 12; Index++)
+            {
+                
+            }
         }
     }
 }
