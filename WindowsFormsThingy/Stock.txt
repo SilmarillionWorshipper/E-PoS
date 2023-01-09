@@ -1,0 +1,12 @@
+﻿Item, Buy, Sell, Stock
+Highlighter (Green), 40, 45, 0
+Highlighter (Red), 40, 05, 0
+Highlighter (Yellow), 40, 45, 0
+Pencil, 02, 05, 0
+Pencil Case, 50, 60, 0
+Pencil Sharpener, 10, 15, 0
+Pen (Black), 09, 10, 0
+Pen (Blue), 09, 10, 0
+Rubber, 10, 10, 0
+Ruler (6in), 30, 35, 0
+Ruler (12in), 32, 40, 0
