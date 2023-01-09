@@ -1,39 +1,3 @@
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.csproj.AssemblyReference.cache
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.Form1.resources
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.csproj.GenerateResource.cache
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.AssemblyInfoInputs.cache
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.AssemblyInfo.cs
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.csproj.CoreCompileInputs.cache
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.exe
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.deps.json
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.runtimeconfig.json
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.dll
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.pdb
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.dll
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\obj\Debug\net6.0-windows\refint\WindowsFormsThingy.dll
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.pdb
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.genruntimeconfig.cache
-C:\Users\emiller\Source\Repos\WindowsFormsThingy\obj\Debug\net6.0-windows\ref\WindowsFormsThingy.dll
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.exe
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.deps.json
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.runtimeconfig.json
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.dll
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.pdb
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.csproj.AssemblyReference.cache
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.Form1.resources
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.csproj.GenerateResource.cache
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.GeneratedMSBuildEditorConfig.editorconfig
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.AssemblyInfoInputs.cache
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.AssemblyInfo.cs
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.csproj.CoreCompileInputs.cache
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.dll
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\obj\Debug\net6.0-windows\refint\WindowsFormsThingy.dll
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.pdb
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.genruntimeconfig.cache
-\\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\obj\Debug\net6.0-windows\ref\WindowsFormsThingy.dll
-<<<<<<< HEAD
-<<<<<<< HEAD
 C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.exe
 C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.deps.json
 C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.runtimeconfig.json
@@ -51,27 +15,3 @@ C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\ob
 C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.pdb
 C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.genruntimeconfig.cache
 C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\ref\WindowsFormsThingy.dll
-=======
-=======
->>>>>>> 2668b3b3103e69e80966986d26a960d7eaf64b85
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.exe
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.deps.json
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.runtimeconfig.json
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.dll
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.pdb
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.csproj.AssemblyReference.cache
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.Form1.resources
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.csproj.GenerateResource.cache
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.AssemblyInfoInputs.cache
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.AssemblyInfo.cs
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.csproj.CoreCompileInputs.cache
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.dll
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\refint\WindowsFormsThingy.dll
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.pdb
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.genruntimeconfig.cache
-C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\ref\WindowsFormsThingy.dll
-<<<<<<< HEAD
->>>>>>> 2668b3b3103e69e80966986d26a960d7eaf64b85
-=======
->>>>>>> 2668b3b3103e69e80966986d26a960d7eaf64b85
