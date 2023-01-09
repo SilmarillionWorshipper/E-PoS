@@ -15,11 +15,19 @@
     "version": "1.0.0",
     "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\emiller\\Source\\Repos\\SilmarillionWorshipper\\E-PoS\\WindowsFormsThingy\\WindowsFormsThingy.csproj",
       "projectName": "WindowsFormsThingy",
       "projectPath": "C:\\Users\\emiller\\Source\\Repos\\SilmarillionWorshipper\\E-PoS\\WindowsFormsThingy\\WindowsFormsThingy.csproj",
       "packagesPath": "C:\\Users\\emiller\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\emiller\\Source\\Repos\\SilmarillionWorshipper\\E-PoS\\WindowsFormsThingy\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\The Big E\\source\\repos\\SilmarillionWorshipper\\E-PoS\\WindowsFormsThingy\\WindowsFormsThingy.csproj",
+      "projectName": "WindowsFormsThingy",
+      "projectPath": "C:\\Users\\The Big E\\source\\repos\\SilmarillionWorshipper\\E-PoS\\WindowsFormsThingy\\WindowsFormsThingy.csproj",
+      "packagesPath": "C:\\Users\\The Big E\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\The Big E\\source\\repos\\SilmarillionWorshipper\\E-PoS\\WindowsFormsThingy\\obj\\",
+>>>>>>> 2668b3b3103e69e80966986d26a960d7eaf64b85
 =======
       "projectUniqueName": "C:\\Users\\The Big E\\source\\repos\\SilmarillionWorshipper\\E-PoS\\WindowsFormsThingy\\WindowsFormsThingy.csproj",
       "projectName": "WindowsFormsThingy",

@@ -1,9 +1,15 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "Iai+oypGjoKx+IhZrUBoFET01jsuKLuhS2eZoEtinviAXCT7tx77Bf4FA7Cc7v3VX5mhy7GtQuJGYexp6lwmZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\emiller\\Source\\Repos\\SilmarillionWorshipper\\E-PoS\\WindowsFormsThingy\\WindowsFormsThingy.csproj",
+=======
+  "dgSpecHash": "Zf/gJ7ZQVnUhCUx5OM4yOA+P1KRRpRFqBK2YBn+KCYAjdbVWtiR+CROfqkMzf+YflH4PbFWKaaFNSRQZPJ/Jtg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\The Big E\\source\\repos\\SilmarillionWorshipper\\E-PoS\\WindowsFormsThingy\\WindowsFormsThingy.csproj",
+>>>>>>> 2668b3b3103e69e80966986d26a960d7eaf64b85
 =======
   "dgSpecHash": "Zf/gJ7ZQVnUhCUx5OM4yOA+P1KRRpRFqBK2YBn+KCYAjdbVWtiR+CROfqkMzf+YflH4PbFWKaaFNSRQZPJ/Jtg==",
   "success": true,

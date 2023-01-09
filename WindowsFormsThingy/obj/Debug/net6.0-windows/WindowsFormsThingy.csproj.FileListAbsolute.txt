@@ -33,6 +33,7 @@ C:\Users\emiller\Source\Repos\WindowsFormsThingy\obj\Debug\net6.0-windows\ref\Wi
 \\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.genruntimeconfig.cache
 \\filesrv-01\Students\Intake17\emiller\A Level Computing\WindowsFormsThingy\obj\Debug\net6.0-windows\ref\WindowsFormsThingy.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.exe
 C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.deps.json
 C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.runtimeconfig.json
@@ -51,6 +52,8 @@ C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\ob
 C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.genruntimeconfig.cache
 C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\ref\WindowsFormsThingy.dll
 =======
+=======
+>>>>>>> 2668b3b3103e69e80966986d26a960d7eaf64b85
 C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.exe
 C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.deps.json
 C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\bin\Debug\net6.0-windows\WindowsFormsThingy.runtimeconfig.json
@@ -68,4 +71,7 @@ C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\
 C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.pdb
 C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.genruntimeconfig.cache
 C:\Users\The Big E\source\repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\ref\WindowsFormsThingy.dll
+<<<<<<< HEAD
+>>>>>>> 2668b3b3103e69e80966986d26a960d7eaf64b85
+=======
 >>>>>>> 2668b3b3103e69e80966986d26a960d7eaf64b85
