@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\filesrv-01\\Students\\Intake17\\emiller\\A Level Computing\\WindowsFormsThingy\\WindowsFormsThingy.csproj",
+      "projectUniqueName": "C:\\Users\\emiller\\Source\\Repos\\SilmarillionWorshipper\\E-PoS\\WindowsFormsThingy\\WindowsFormsThingy.csproj",
       "projectName": "WindowsFormsThingy",
-      "projectPath": "\\\\filesrv-01\\Students\\Intake17\\emiller\\A Level Computing\\WindowsFormsThingy\\WindowsFormsThingy.csproj",
+      "projectPath": "C:\\Users\\emiller\\Source\\Repos\\SilmarillionWorshipper\\E-PoS\\WindowsFormsThingy\\WindowsFormsThingy.csproj",
       "packagesPath": "C:\\Users\\emiller\\.nuget\\packages\\",
-      "outputPath": "\\\\filesrv-01\\Students\\Intake17\\emiller\\A Level Computing\\WindowsFormsThingy\\obj\\",
+      "outputPath": "C:\\Users\\emiller\\Source\\Repos\\SilmarillionWorshipper\\E-PoS\\WindowsFormsThingy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emiller\\AppData\\Roaming\\NuGet\\NuGet.Config",
