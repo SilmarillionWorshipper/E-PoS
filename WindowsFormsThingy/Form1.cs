@@ -4,6 +4,7 @@ namespace WindowsFormsThingy
 {
     public partial class Form1 : Form
     {
+        public static string[,] stockData = LoadFile();
         public Form1()
         {
             InitializeComponent();
@@ -67,7 +68,7 @@ namespace WindowsFormsThingy
         public static string[,] LoadFile()
         {
             // Declares 2D array and a counter for putting items into the array
-            string[,] StockData = new string[11,4];
+            stockData = new string[11,4];
             int Counter = 0;
 
             try
@@ -83,10 +84,10 @@ namespace WindowsFormsThingy
                         string Item = Convert.ToString(Data[Index]);
                         if (Item == ",")
                         {
-                            StockData[Counter, 0] = Data.Substring(0, Index + 1);
-                            StockData[Counter, 1] = Data.Substring(Index + 2, 2);
-                            StockData[Counter, 2] = Data.Substring(Index + 6, 2);
-                            StockData[Counter, 3] = Data.Substring(Index + 10, 1);
+                            stockData[Counter, 0] = Data.Substring(0, Index + 1);
+                            stockData[Counter, 1] = Data.Substring(Index + 2, 2);
+                            stockData[Counter, 2] = Data.Substring(Index + 6, 2);
+                            stockData[Counter, 3] = Data.Substring(Index + 10, 1);
                         }
                     }
                     Counter++;
@@ -103,7 +104,7 @@ namespace WindowsFormsThingy
 
         static void TextBoxLoader()
         {
-
+            
         }
 
         public void AddToCart(string stockName)
@@ -111,7 +112,7 @@ namespace WindowsFormsThingy
             shoppingListTxt.Text += stockName;
             for (int Index = 0; Index < 12; Index++)
             {
-                
+               
             }
         }
     }
