@@ -15,3 +15,4 @@ C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\ob
 C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.pdb
 C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\WindowsFormsThingy.genruntimeconfig.cache
 C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\obj\Debug\net6.0-windows\ref\WindowsFormsThingy.dll
+C:\Users\emiller\Source\Repos\SilmarillionWorshipper\E-PoS\WindowsFormsThingy\bin\Debug\net6.0-windows\Stock.txt

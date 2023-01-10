@@ -74,22 +74,20 @@ namespace WindowsFormsThingy
             try
             {
                 TextReader TextFile = new StreamReader("Stock.txt");
-                string Data = TextFile.ReadLine();
-                while (Data != null)
+                string? Data = "";
+
+                while (true)
                 {
                     Data = TextFile.ReadLine();
-                    // Searches through string to find the first comma, then use that as reference to know what data is stored where
-                    for (int Index = 0; Index < Data.Length; Index++)
-                    {
-                        string Item = Convert.ToString(Data[Index]);
-                        if (Item == ",")
-                        {
-                            stockData[Counter, 0] = Data.Substring(0, Index + 1);
-                            stockData[Counter, 1] = Data.Substring(Index + 2, 2);
-                            stockData[Counter, 2] = Data.Substring(Index + 6, 2);
-                            stockData[Counter, 3] = Data.Substring(Index + 10, 1);
-                        }
-                    }
+
+                    if (Data == null)
+                        break;
+                    // Splits data based on where the
+                    string[] dataInfo = Data.Split(',');
+                    stockData[Counter, 0] = dataInfo[0];
+                    stockData[Counter, 1] = dataInfo[1];
+                    stockData[Counter, 2] = dataInfo[2];
+                    stockData[Counter, 3] = dataInfo[3];
                     Counter++;
                 }
                 TextFile.Close();
@@ -109,11 +107,16 @@ namespace WindowsFormsThingy
 
         public void AddToCart(string stockName)
         {
-            shoppingListTxt.Text += stockName;
-            for (int Index = 0; Index < 12; Index++)
+            int total = 0;
+
+            string badumddddd = "";
+
+            foreach(string item in stockData)
             {
-               
+                badumddddd += item + " [] ";
             }
+
+            shoppingListTxt.Text = badumddddd;
         }
     }
 }
