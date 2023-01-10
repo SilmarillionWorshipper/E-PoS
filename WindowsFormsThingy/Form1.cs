@@ -83,7 +83,7 @@ namespace WindowsFormsThingy
                     if (Data == null)
                         break;
                     // Splits data based on where the commas are
-                    string[] dataInfo = Data.Split(',');
+                    string[] dataInfo = Data.Split(",");
                     stockData[Counter, 0] = dataInfo[0].Trim();
                     stockData[Counter, 1] = dataInfo[1].Trim();
                     stockData[Counter, 2] = dataInfo[2].Trim();
@@ -103,10 +103,10 @@ namespace WindowsFormsThingy
         {
             
         }
-
+        public static int total = 0;
         public void AddToCart(string stockName)
         {
-            int total = 0;
+            /*int total = 0;
 
             string badumddddd = "";
 
@@ -115,7 +115,24 @@ namespace WindowsFormsThingy
                 badumddddd += item + " [] ";
             }
 
-            shoppingListTxt.Text = badumddddd;
+            shoppingListTxt.Text = badumddddd;*/
+
+            shoppingListTxt.Text += stockName + "\r\n";
+
+            total = Convert.ToInt32(total);
+
+            for (int index = 0; index < 11; index++)
+            {
+                if (stockData[index, 0] == stockName)
+                {
+                    total += Convert.ToInt32(stockData[index, 2]);
+                }
+            }
+
+            float a = (float)total / 100;
+            string magictext = String.Format("{0:C2}",a);
+            totalPriceTxt.Text = magictext;
+            
         }
     }
 }

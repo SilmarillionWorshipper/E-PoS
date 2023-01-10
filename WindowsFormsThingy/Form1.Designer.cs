@@ -170,6 +170,7 @@
             this.shoppingListTxt.Multiline = true;
             this.shoppingListTxt.Name = "shoppingListTxt";
             this.shoppingListTxt.ReadOnly = true;
+            this.shoppingListTxt.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.shoppingListTxt.Size = new System.Drawing.Size(180, 260);
             this.shoppingListTxt.TabIndex = 10;
             // 
