@@ -99,24 +99,13 @@ namespace WindowsFormsThingy
             return stockData;
         }   
 
-        static void TextBoxLoader()
+        public static void TextBoxLoader()
         {
-            
+
         }
         public static int total = 0;
         public void AddToCart(string stockName)
         {
-            /*int total = 0;
-
-            string badumddddd = "";
-
-            foreach(string item in stockData)
-            {
-                badumddddd += item + " [] ";
-            }
-
-            shoppingListTxt.Text = badumddddd;*/
-
             shoppingListTxt.Text += stockName + "\r\n";
 
             total = Convert.ToInt32(total);
@@ -131,8 +120,7 @@ namespace WindowsFormsThingy
 
             float a = (float)total / 100;
             string magictext = String.Format("{0:C2}",a);
-            totalPriceTxt.Text = magictext;
-            
+            totalPriceTxt.Text = magictext;           
         }
     }
 }
