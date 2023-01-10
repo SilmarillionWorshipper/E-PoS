@@ -82,12 +82,12 @@ namespace WindowsFormsThingy
 
                     if (Data == null)
                         break;
-                    // Splits data based on where the
+                    // Splits data based on where the commas are
                     string[] dataInfo = Data.Split(',');
-                    stockData[Counter, 0] = dataInfo[0];
-                    stockData[Counter, 1] = dataInfo[1];
-                    stockData[Counter, 2] = dataInfo[2];
-                    stockData[Counter, 3] = dataInfo[3];
+                    stockData[Counter, 0] = dataInfo[0].Trim();
+                    stockData[Counter, 1] = dataInfo[1].Trim();
+                    stockData[Counter, 2] = dataInfo[2].Trim();
+                    stockData[Counter, 3] = dataInfo[3].Trim();
                     Counter++;
                 }
                 TextFile.Close();
@@ -97,7 +97,6 @@ namespace WindowsFormsThingy
                 MessageBox.Show("File error", "Error");
             }
             return stockData;
-            // Update: I want to cry
         }   
 
         static void TextBoxLoader()
