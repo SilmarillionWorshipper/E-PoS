@@ -144,7 +144,7 @@
             // 
             // buyButton
             // 
-            this.buyButton.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buyButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buyButton.Location = new System.Drawing.Point(644, 320);
             this.buyButton.Name = "buyButton";
             this.buyButton.Size = new System.Drawing.Size(89, 60);
@@ -155,7 +155,7 @@
             // 
             // cancelButton
             // 
-            this.cancelButton.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cancelButton.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cancelButton.Location = new System.Drawing.Point(735, 320);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(89, 60);

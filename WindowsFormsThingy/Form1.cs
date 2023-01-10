@@ -98,7 +98,7 @@ namespace WindowsFormsThingy
             {
                 MessageBox.Show("File error", "Error");
             }
-            return StockData;
+            return stockData;
             // Update: I want to cry
         }   
 
