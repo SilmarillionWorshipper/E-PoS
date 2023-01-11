@@ -1,11 +1,13 @@
 using System;
 using System.Diagnostics.Metrics;
+using System.Collections.Generic;
 
 namespace WindowsFormsThingy
 {
     public partial class Form1 : Form
     {
         public static string[,] stockData = LoadFile();
+        public static List<string> shoppingList = new List<string>();
         public Form1()
         {
             InitializeComponent();
@@ -58,6 +60,14 @@ namespace WindowsFormsThingy
         private void buyButton_Click(object sender, EventArgs e)
         {
             total = 0;
+            totalPriceTxt.Text = "£0.00";
+            for (int index = 0; index++)
+            {
+
+            }
+            
+            shoppingListTxt.Text = "";
+            TextBoxLoader();
         }
 
         private void cancelButton_Click(object sender, EventArgs e)
@@ -120,6 +130,7 @@ namespace WindowsFormsThingy
         public void AddToCart(string stockName)
         {
             shoppingListTxt.Text += stockName + "\r\n";
+            shoppingList.Add(stockName);
 
             total = Convert.ToInt32(total);
 
