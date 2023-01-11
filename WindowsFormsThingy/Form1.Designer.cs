@@ -361,7 +361,6 @@
 
         #endregion
 
-        private Button Pen;
         private Button highlighterButton;
         private Button pencilButton;
         private Button rubberButton;

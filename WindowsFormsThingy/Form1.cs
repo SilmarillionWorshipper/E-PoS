@@ -1,3 +1,4 @@
+using System;
 using System.Diagnostics.Metrics;
 
 namespace WindowsFormsThingy
@@ -11,7 +12,7 @@ namespace WindowsFormsThingy
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            TextBoxLoader();
         }
 
         private void penButton_Click(object sender, EventArgs e)
@@ -99,11 +100,21 @@ namespace WindowsFormsThingy
             return stockData;
         }   
 
-        public static void TextBoxLoader()
+        public void TextBoxLoader()
         {
-
+            pencilPriceTxt.Text = stockData[3, 2] + "p";
+            pencilStockTxt.Text = stockData[3, 3];
+            pencilCasePriceTxt.Text = stockData[4, 2] + "p";
+            pencilCaseStockTxt.Text = stockData[4, 3];
+            pencilSharpenerPriceTxt.Text = stockData[5, 2] + "p";
+            pencilSharpenerStockTxt.Text = stockData[5, 3];
+            rubberPriceTxt.Text = stockData[8, 2] + "p";
+            rubberStockTxt.Text = stockData[8, 3];
         }
+
         public static int total = 0;
+
+        // Adds item to shopping list and increases the price
         public void AddToCart(string stockName)
         {
             shoppingListTxt.Text += stockName + "\r\n";
@@ -120,7 +131,7 @@ namespace WindowsFormsThingy
 
             float a = (float)total / 100;
             string magictext = String.Format("{0:C2}",a);
-            totalPriceTxt.Text = magictext;           
+            totalPriceTxt.Text = magictext;
         }
     }
 }
