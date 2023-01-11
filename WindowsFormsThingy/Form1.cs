@@ -57,12 +57,14 @@ namespace WindowsFormsThingy
 
         private void buyButton_Click(object sender, EventArgs e)
         {
-
+            total = 0;
         }
 
         private void cancelButton_Click(object sender, EventArgs e)
         {
-
+            total = 0;
+            totalPriceTxt.Text = "£0.00";
+            shoppingListTxt.Text = "";
         }
 
         // Procedure to load the data stored on Stock.txt into a 2D array
