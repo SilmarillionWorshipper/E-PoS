@@ -69,7 +69,7 @@ namespace WindowsFormsThingy
                     if (shoppingList[index] == stockData[count,0])
                     {
                         int magicnumber = Convert.ToInt32(stockData[count,3]);
-                        magicnumber = magicnumber - 1;
+                        magicnumber--;
                         stockData[count, 3] = Convert.ToString(magicnumber);
                     }
                 }   
