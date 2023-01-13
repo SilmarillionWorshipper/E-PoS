@@ -57,15 +57,25 @@ namespace WindowsFormsThingy
 
         }
 
+        // Resets total price and shopping list text, and decreases stock levels
         private void buyButton_Click(object sender, EventArgs e)
         {
             total = 0;
             totalPriceTxt.Text = "£0.00";
-            for (int index = 0; index++)
+            for (int index = 0; index < shoppingList.Count; index++)
             {
-
+                for (int count = 0; count <11; count++)
+                {
+                    if (shoppingList[index] == stockData[count,0])
+                    {
+                        int magicnumber = Convert.ToInt32(stockData[count,3]);
+                        magicnumber = magicnumber - 1;
+                        stockData[count, 3] = Convert.ToString(magicnumber);
+                    }
+                }
+                
             }
-            
+            shoppingList = new List<string>();
             shoppingListTxt.Text = "";
             TextBoxLoader();
         }
