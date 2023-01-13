@@ -1,11 +1,11 @@
-﻿Highlighter (Green), 40, 45, 10
-Highlighter (Red), 40, 5, 10
-Highlighter (Yellow), 40, 45, 10
-Pencil, 2, 5, 10
-Pencil Case, 50, 60, 10
-Pencil Sharpener, 10, 15, 10
-Pen (Black), 9, 10, 10
-Pen (Blue), 9, 10, 10
-Rubber, 10, 10, 10
-Ruler (6in), 30, 35, 10
-Ruler (12in), 32, 40, 10
+﻿Highlighter (Green), 40, 45, 20
+Highlighter (Red), 40, 5, 20
+Highlighter (Yellow), 40, 45, 20
+Pencil, 2, 5, 20
+Pencil Case, 50, 60, 20
+Pencil Sharpener, 10, 15, 20
+Pen (Black), 9, 10, 20
+Pen (Blue), 9, 10, 20
+Rubber, 10, 10, 20
+Ruler (6in), 30, 35, 20
+Ruler (12in), 32, 40, 20

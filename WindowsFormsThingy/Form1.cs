@@ -72,8 +72,7 @@ namespace WindowsFormsThingy
                         magicnumber = magicnumber - 1;
                         stockData[count, 3] = Convert.ToString(magicnumber);
                     }
-                }
-                
+                }   
             }
             shoppingList = new List<string>();
             shoppingListTxt.Text = "";
