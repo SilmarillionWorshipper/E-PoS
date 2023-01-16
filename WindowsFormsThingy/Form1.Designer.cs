@@ -353,6 +353,7 @@
             this.Controls.Add(this.penButton);
             this.Name = "Form1";
             this.Text = "e-PoS";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_Closing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
