@@ -79,6 +79,7 @@ namespace WindowsFormsThingy
             TextBoxLoader();
         }
 
+        // Resets price and shopping list text
         private void cancelButton_Click(object sender, EventArgs e)
         {
             total = 0;
@@ -121,6 +122,7 @@ namespace WindowsFormsThingy
             return stockData;
         }   
 
+        // Loads the prices and stock values for the buttons
         public void TextBoxLoader()
         {
             pencilPriceTxt.Text = stockData[3, 2] + "p";
