@@ -319,7 +319,7 @@
             this.totalPriceTxt.ReadOnly = true;
             this.totalPriceTxt.Size = new System.Drawing.Size(90, 43);
             this.totalPriceTxt.TabIndex = 32;
-            this.totalPriceTxt.Text = "£10.00";
+            this.totalPriceTxt.Text = "£0.00";
             this.totalPriceTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form1
